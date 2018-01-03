@@ -1,0 +1,437 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang9\f0\fs22 /apps/att/common/components/shared/global_js_T2.jsp\par
+<!--Start: Relief Widget Configuration and assets-->\par
+    <script type="text/javascript">\par
+        var LoginWidgetAdditionalAttr = \{\par
+            "LoginWidgetSetting" : \{\par
+                "ApplicationName" : "DMYATT",\par
+                "DefaultUserIdValue" : "",\par
+                "TGuardAuthPostUrl" : "{\field{\*\fldinst{HYPERLINK "https://wbslqa1.stage.att.com/commonLogin/igate_wam/multiLogin.do"}}{\fldrslt{\ul\cf1 https://wbslqa1.stage.att.com/commonLogin/igate_wam/multiLogin.do}}}\f0\fs22 ",\par
+                "WidgetErrorCode" : "",\par
+                "WidgetSaveUserIdEnable" : "",\par
+                "Language" : "English",\par
+                "formSubmitParams": \{\par
+                    "source" : "MYATT",\par
+                    "flow_ind" : "LGN",\par
+                    "isSlidLogin" : "true",\par
+                    "vhname": "myatt-qa1.stage.att.com",\par
+                    "urlParameters": "sessionTimeOutAutoLogout=true&reportActionEvent=A_LGN_LOGIN_SUB&loginSource=olam",\par
+                    "myATTIntercept": "true",\par
+                    "persist":"Y",\par
+                    "rootPath": "/olam/English"\par
+                \}\par
+            \}\par
+        \};\par
+    </script>\par
+    <!--End: Relief Widget Configuration and assets-->\par
+\par
+Right above </head>\par
+<!--Start: Global Navigation file-->\par
+    <script type="text/javascript" src="/ui/globalnav-handler.min.js"></script>\par
+    <!--End: Global Navigation file-->\par
+\par
+\b /apps/att/common/components/globalnav/zone1html.jsp\par
+\b0 <header>\par
+        <div id="gn-zone1">\par
+            <nav id="navbar-zone1" class="container">\par
+                <div class="row">\par
+                    <div class="span12">\par
+                        <div id="z1-navbar" class="">\par
+                            <div class="pull-left span4-xsm span4-sm span7-md span8">\par
+                                <!--Globe Icon Start-->\par
+                                <div id="z1-globe" class="hide-xsm hide-sm">\par
+                                    <a class="brand" href="//att.com" title="AT&amp;T">\par
+                                        <i id="z1-globe-md" class="icon-att-globe" aria-label="A T & T" role="img"></i>\par
+                                    </a>\par
+                                </div>\par
+                                <!--Globe Icon End-->\par
+\par
+                                <!--Hamburger Menu Section-->\par
+                                <div id="z1-pullMenu" class="has-sidenav has-dropdown dropdown-hover">\par
+                                    <a id="z1-pullMenu-open" href="#" class="z1-link" aria-label="Menu" role="button" aria-haspopup="true" aria-controls="m-menu" aria-expanded="false" data-slide-animation="from-left">\par
+                                        <!-- Icon state markup for unauthenticated / authenticated state\par
+                                        hide class in below just for mock purpose only\par
+                                        this need to be handle from back end what element has to shown\par
+                                        at a time only one icon element should be present in the page.\par
+                                        -->\par
+                                        <!-- Default State -->\par
+                                        <i class="icon-hamburger show-unauth" aria-label="Menu" role="img"></i>\par
+                                        <!-- Default State -->\par
+\par
+                                        <!-- Icon Authenticated State -->\par
+                                        <i class="icon-hamburger hide-auth" aria-label="Menu" role="img"></i>\par
+                                        <!-- Icon state markup for authenticated state -->\par
+\par
+                                        <!-- Desktop Label text Variant  -->\par
+\par
+                                        <!-- Tablet Label text Variant -->\par
+                                        <!--<span class="z1-pullMenu-text hide-xsm hide-sm hide-lg">Discover AT&amp;T</span>-->\par
+                                        <!-- Mobile Label text Variant hide-xsm and hide-sm class will decide weather label to be shown or not\par
+                                        <span class="z1-pullMenu-text hide-lg hide-md hide-xsm hide-sm">Discover AT&amp;T</span>-->\par
+                                        <!-- optional should not be render if not required in component -->\par
+                                        <span id="z1-pullMenu-alert" class="badge nav-badge-pullMenu show-unauth"></span>\par
+                                        <!--desktop START-->\par
+                                                <span  class="z1-pullMenu-text hide-xsm hide-sm hide-md show-unauth">\par
+                                                    Discover AT&amp;T\par
+                                                </span>\par
+                                                <span class="z1-pullMenu-auth-text hide-xsm hide-sm hide-md hide-unauth">\par
+                                                    <img src="img/global-nav/myatt_logo_rgb_blue-white.png" alt="myAT&amp;T" /> <!-- will be replaced by sprite later -->\par
+                                                </span>\par
+                                        <!--desktop end-->\par
+                                        <!--TABLET START-->\par
+                                                <span class="z1-pullMenu-text hide-xsm hide-sm hide-md hide-lg show-unauth">\par
+                                                    Discover AT&amp;T\par
+                                                </span>\par
+                                                <span class="z1-pullMenu-auth-text hide-xsm hide-sm hide-md hide-lg hide-unauth">\par
+                                                    <img src="img/global-nav/myatt_logo_rgb_blue-white.png" alt="myAT&amp;T" /> <!-- will be replaced by sprite later -->\par
+                                                </span>\par
+                                        <!--TABLET END-->\par
+                                        <!--mobile start-->\par
+                                                <span class="z1-pullMenu-text hide-xsm hide-sm hide-md hide-lg show-unauth">\par
+                                                    Discover AT&amp;T\par
+                                                </span>\par
+                                                <span class="z1-pullMenu-auth-text hide-xsm hide-sm hide-md hide-lg hide-unauth">\par
+                                                    <img src="img/global-nav/myatt_logo_rgb_blue-white.png" alt="myAT&amp;T" height="29" width="82"/> <!-- will be replaced by sprite later -->\par
+                                                </span>\par
+                                        <!--mobile end-->\par
+                                        <!-- optional should not be render if not required in component end -->\par
+                                    </a>\par
+                                    <div class="dropdown-menu" id="m-menu" role="menu" aria-labelledby="z1-pullMenu-open"  aria-hidden="true">\par
+                                        <ul id="tab-desktop-menu">\par
+                                            <li class="text-right hide-md hide-lg menu-item-signin" role="menuitem">\par
+                                                <a href="#"><i class="icon-people-oneperson"></i>\par
+                                                    <span id="m-signin">Sign in</span> <span id="m-logout" class="hide-unauth">Log out</span>\par
+                                                </a>\par
+                                            </li>\par
+                                            <li class="hide-md hide-lg" role="menuitem"><a class="m-tv" role="menuitem" href="#" data-hasdtv="authDTVURL"\par
+                                                                                           data-hasutc="authuVerseURL"\par
+                                                                                           data-unauth="authOTTURL"\par
+                                                                                           data-customURL="authCustomURL">\par
+                                                <img class="m-tv-img" src="img/global-nav/m-watchNow@2x.png" alt="Watch TV now" width="230px" height="42px" />\par
+                                                <span class="m-tv-text">Watch TV now</span>\par
+                                            </a></li>\par
+                                            <!-- *** Add Authenticated menu items *** -->\par
+                                            <li id="z1-account" class="hide-unauth" role="menuitem">\par
+                                                <a href="#" role="menuitem" class="double-line">\par
+                                                    <i class="icon-people-accountmanager pull-left" aria-label="Account overview" role="img"></i><span class="auth-pull-left"> Account overview<span class="description">Lorem ipsum line</span></span></a>\par
+                                            </li>\par
+                                            <li id="z1-billing" class="hide-unauth" role="menuitem">\par
+                                                <a href="#" class="double-line"><i class="icon-people-accountmanager pull-left" aria-label="View and Pay Bill" role="img"></i><span class="auth-pull-left"> View &amp; pay bill<span class="description">Lorem ipsum line</span></span></a>\par
+                                            </li>\par
+                                            <li class="menu-divider hide-unauth hide-lg hide-md"><span>&nbsp;</span></li>\par
+                                            <!-- *** End Authenticated menu items *** -->\par
+                                            <li class="has-submenu" role="menuitem">\par
+                                                <!--desktop link hide-sm hide-xsm class hide below link for mobile viewport -->\par
+                                                <a href="#" class="slideout-toggle hide-sm hide-xsm" aria-expanded="false" aria-haspopup="true">Wireless <span class="pull-right"><i class="icon-right" aria-label="Wireless" role="img"></i></span></a>\par
+                                                <!--Desktop link end-->\par
+\par
+                                                <!--\par
+                                                Mobile link example\par
+                                                hide-lg and hide-md class hide below in desktop and tablet/Ipad view\par
+                                                -->\par
+                                                <a href="#" class="slideout-toggle hide-lg hide-md" aria-expanded="false" aria-haspopup="true">Mobile ink wireless <span class="pull-right" aria-expanded="false" aria-haspopup="true"><i class="icon-right" aria-label="Wireless" role="img"></i></span></a>\par
+                                                <!--Mobile link example end -->\par
+                                                <ul class="lg-submenu" aria-hidden="true" aria-label="submenu">\par
+                                                    <li class="hide-lg hide-md" role="menuitem">\par
+                                                        <a class="back-button" aria-label="Back to main menu" href="#" role="button"><i class="icon-left"></i> Back</a>\par
+                                                    </li>\par
+                                                    <li class="hide-lg hide-md menu-subtitle" role="menuitem">Shop wireless</li>\par
+                                                    <hr class="hide-lg hide-md hr-nopadding" />\par
+                                                    <li role="menuitem"><a href="#">Devicessssssss</a></li>\par
+                                                    <li role="menuitem"><a href="#">Plans</a></li>\par
+                                                    <li role="menuitem"><a href="#">Features</a></li>\par
+                                                    <li role="menuitem"><a href="#">Accessories</a></li>\par
+                                                    <li role="menuitem"><a href="#">Applications</a></li>\par
+                                                    <!-- updated by Heena -->\par
+                                                    <li class="menu-divider"><span>&nbsp;</span></li>\par
+                                                    <li role="menuitem"><a href="#">Wireless help &amp; support</a></li>\par
+                                                    <li role="menuitem"><a href="#">Device support</a></li>\par
+                                                </ul>\par
+                                            </li>\par
+                                            <li class="has-submenu" role="menuitem" data-type="unauth" data-category="hasw">\par
+                                                <!--desktop link hide-sm hide-xsm class hide below link for mobile viewport -->\par
+                                                <a href="#" class="slideout-toggle hide-sm hide-xsm" aria-label="TV" aria-expanded="false" aria-haspopup="true">TV <span class="pull-right"><i class="icon-right" role="img"></i></span></a>\par
+                                                <!--Desktop link end-->\par
+\par
+                                                <!--\par
+                                                Mobile link example\par
+                                                hide-lg and hide-md class hide below in desktop and tablet/Ipad view\par
+                                                -->\par
+                                                <a href="#" class="slideout-toggle hide-lg hide-md" aria-label="Mobile Link TV" aria-expanded="false" aria-haspopup="true">Mobile Link TV <span class="pull-right"><i class="icon-right" role="img"></i></span></a>\par
+                                                <!--Mobile link example end -->\par
+                                                <ul class="lg-submenu" aria-hidden="true" aria-label="submenu">\par
+                                                    <li class="hide-lg hide-md" role="menuitem">\par
+                                                        <a id="m-wireless-close" class="back-button" href="#" role="button"><i class="icon-left"></i> Back</a>\par
+                                                    </li>\par
+                                                    <li class="hide-lg hide-md menu-subtitle" role="menuitem">Shop TV</li>\par
+                                                    <hr class="hide-lg hide-md hr-nopadding" />\par
+                                                    <li role="menuitem"><a href="#">Devices</a></li>\par
+                                                    <li role="menuitem"><a href="#">Plans</a></li>\par
+                                                    <li role="menuitem"><a href="#">Features</a></li>\par
+                                                    <li ><a href="#">Accessories</a></li>\par
+                                                    <li role="menuitem"><a href="#">Applications</a></li>\par
+                                                    <li role="menuitem"><a href="#">Applications</a></li>\par
+                                                    <li role="menuitem"><a href="#">Applications</a></li>\par
+                                                    <!-- updated by Heena -->\par
+                                                    <li class="menu-divider"><span>&nbsp;</span></li>\par
+                                                    <li role="menuitem"><a href="#">Wireless help &amp; support</a></li>\par
+                                                    <li role="menuitem"><a href="#">Device support</a></li>\par
+                                                </ul>\par
+                                            </li>\par
+                                            <!-- Category Link markup to Show hide based on account type example-->\par
+                                            <li data-category="hasw" data-type="unauth" class="hide" role="menuitem"><a href="#">Internet </a></li>\par
+                                            <li data-category="hasw" data-type="auth" class="hide" role="menuitem"><a href="#">My Internet </a></li>\par
+                                            <li role="menuitem"><a href="#" role="menuitem">Home phone </a></li>\par
+                                            <li data-type="auth" data-category="hasutv hasw" class="hide" role="menuitem"><a href="#">My Bundles </a></li>\par
+                                            <li data-type="unauth" data-category="hasutv hasw" class="hide" role="menuitem"><a href="#">Bundles </a></li>\par
+                                            <!-- Category Link markup to Show hide based on account type example-->\par
+                                            <li data-category="" role="menuitem"><a href="#">Deals &amp; offers </a></li>\par
+                                            <li class="has-submenu" role="menuitem">\par
+                                                <a href="#" class="slideout-toggle" aria-label="More from AT&T" aria-expanded="false" aria-haspopup="true">More from AT&amp;T <span class="pull-right"><i class="icon-right" aria-label="More from AT&T" role="img"></i></span>\par
+                                                </a>\par
+                                                <ul class="lg-submenu att-more" aria-hidden="true" aria-label="submenu">\par
+                                                    <li class="hide-lg hide-md" role="menuitem">\par
+                                                        <a id="m-wireless-close" class="back-button" role="button" href="#" aria-label="Back to main menu"><i class="icon-left"  role="img"></i> Back</a>\par
+                                                    </li>\par
+                                                    <li class="hide-lg hide-md menu-subtitle" role="menuitem">More from At&T</li>\par
+                                                    <hr class="hide-lg hide-md hr-nopadding" />\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#">\par
+                                                            <i class="image-sprite icon-myatt-app" aria-label="MyAT&T App" role="img"></i>\par
+                                                                    <span class="pull-left">\par
+                                                                        MyAT&T App\par
+                                                                        <span class="description">Manage your account & more</span>\par
+                                                                    </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#">\par
+                                                            <i class="image-sprite icon-digital-life" aria-label="Digital Life" role="img"></i>\par
+                                                                    <span class="pull-left">\par
+                                                                        Digital Life\par
+                                                                        <span class="description">Home security and automation</span>\par
+                                                                    </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#">\par
+                                                            <i class="image-sprite icon-att-locker" aria-label="AT&T Locker" role="img"></i>\par
+                                                                    <span class="pull-left">\par
+                                                                        AT&T Locker\par
+                                                                        <span class="description">Acces cloud storage anywhere</span>\par
+                                                                    </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#">\par
+                                                            <i class="image-sprite icon-att-familymap" aria-label="AT&T FamilyMap" role="img"></i>\par
+                                                                    <span class="pull-left">\par
+                                                                        AT&T FamilyMap\par
+                                                                        <span class="description">Know your family's location</span>\par
+                                                                    </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#">\par
+                                                            <i class="image-sprite icon-att-navigator" aria-label="AT&T Navigator" role="img"></i>\par
+                                                                    <span class="pull-left">\par
+                                                                        AT&T Navigator\par
+                                                                        <span class="description">Get where you're going</span>\par
+                                                                    </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem"><a href="#">\par
+                                                        <i class="image-sprite icon-att-smart-limits" aria-label="AT&T Smart Limits" role="img"></i>\par
+                                                                <span class="pull-left">\par
+                                                                    AT&T Smart Limits\par
+                                                                    <span class="description">Manage your mobile phone use</span>\par
+                                                                </span>\par
+                                                    </a>\par
+                                                    </li>\par
+\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#"><i class="image-sprite icon-att-easy-remote" aria-label="AT&T Easy Remote" role="img"></i>\par
+                                                                <span class="pull-left">\par
+                                                                    AT&T Easy Remote\par
+                                                                    <span class="description">Find TV channels & apps for kids</span>\par
+                                                                </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem">\par
+                                                        <a href="#">\par
+                                                            <i class="image-sprite icon-att-net" aria-label="Aatt.net" role="img"></i>\par
+                                                                <span class="pull-left">\par
+                                                                    Aatt.net\par
+                                                                    <span class="description">News, entertainment & more</span>\par
+                                                                </span>\par
+                                                        </a>\par
+                                                    </li>\par
+                                                    <li role="menuitem"><a href="#">\par
+                                                        <i class="image-sprite icon-att-single-line" aria-label="Link text" role="img"></i>\par
+                                                            <span class="pull-left">\par
+                                                                Single line only here\par
+                                                                <span class="description">This is an example of a description with 2 lines if needed</span>\par
+                                                            </span>\par
+                                                    </a></li>\par
+                                                </ul>\par
+                                            </li>\par
+\par
+                                            <!-- *** Add Authenticated menu items *** -->\par
+                                            <li id="z1-orders" class="hide-unauth" role="menuitem"><a href="#">My orders</a></li>\par
+                                            <!-- *** End Authenticated menu items *** -->\par
+                                            <li class="menu-divider"><span>&nbsp</span></li>\par
+                                            <li id="z1-help-support" class="" role="menuitem"><a href="#">Help and support</a></li>\par
+                                            <li id="z1-help-support" class="" role="menuitem"><a href="#">Help and support</a></li>\par
+                                            <li id="z1-comm-forums" class="" role="menuitem"><a href="#">Community forums</a></li>\par
+                                        </ul>\par
+                                    </div>\par
+                                    <!-- Mobile close button -->\par
+                                    <div class="btn-container hide-md hide-lg">\par
+                                        <a id="z1-pull-close" href="#" class="z1-link" role="button" aria-label="Close Menu">\par
+                                            <i id="z1-close-icon" class="icon-close hide-md hide-lg"></i>\par
+                                        </a>\par
+                                    </div>\par
+                                    <!-- Mobile close button -->\par
+                                </div>\par
+                                <!--Hamburger Menu Section end -->\par
+\par
+\par
+                                <!--Search Section Start-->\par
+                                <widget-view widget-name="searchWidget" widget-templates='\{"activeSearch":"/template/search.html"\}'  widget-path="/ui/globalnav-widgets/temp" widget-library="att.gn.widgets.min.js"></widget-view>\par
+                                <!--Search Section End-->\par
+                            </div>\par
+                            <!-- Mobile Globe ICON Start -->\par
+                            <div id="z1-mobile-identity" class="span4-xsm span4-sm hide-md hide-lg">\par
+                                <a class="brand" href="//www.att.com" title="AT&amp;T">\par
+                                    <i id="z1-mobile-globe" class="icon-att-globe" aria-label="A T & T" role="img"></i>\par
+                                    <img id="z1-mobile-myATT" src="img/global-nav/myatt_logo_rgb_blue-white.png" class="hide-unauth" alt="myAT&amp;T" height="29" width="82"/>\par
+                                </a>\par
+                            </div>\par
+                            <!-- Mobile Globe ICON End -->\par
+\par
+                            <!--Header Right Section cart profile watch tv now Start-->\par
+                            <div class="pull-right span4-xsm span4-sm span5-md span4 text-right">\par
+                                <widget-view widget-templates='\{"activeCart":"/template/cart.html"\}' widget-name="cartWidget" widget-path="/ui/globalnav-widgets/temp" widget-library="att.gn.widgets.min.js"></widget-view>\par
+                                <widget-view widget-templates='\{"unauth":"/template/sign-in.html","auth":"/template/sign-out.html"\}' widget-name="profileWidget"   widget-path="/ui/globalnav-widgets/temp" widget-library="att.gn.widgets.min.js"></widget-view>\par
+                                <!--Watch TV Now link-->\par
+                                <div id="z1-watch-tv" class="hide-xsm hide-sm">\par
+                                    <div id="z1-watch-img">\par
+                                        <img src="img/global-nav/circlereg60.png" height="60px" width="191px" />\par
+                                    </div>\par
+                                    <div id="z1-watch-text">\par
+                                        <a class="watch-tv-link" href="#"\par
+                                           data-hasdtv="authDTVURL"\par
+                                           data-hasutc="authuVerseURL"\par
+                                           data-unauth="authOTTURL"\par
+                                           data-customURL="authCustomURL">\par
+                                            <!--below the icon markup which we have to use class might be changed later to depict icon which match with the comp -->\par
+                                            <i class="icon-devices-tv" role="img" aria-label="Watch TV now"></i>\par
+                                            Watch TV now\par
+                                        </a>\par
+                                    </div>\par
+                                </div>\par
+                                <!--Watch TV Now link End-->\par
+                            </div>\par
+                            <!--Header Right Section cart profile watch tv now End-->\par
+                            <div class="clearfix"></div>\par
+                        </div>\par
+                    </div>\par
+                </div>\par
+            </nav>\par
+        </div>\par
+    </header>\par
+/apps/att/common/components/globalnav/zone1htm7.jsp\par
+<footer>\par
+        <div id="gn-zone5">\par
+            <div id="z5-footer-content" class="container">\par
+                <div class="row">\par
+                    <div id="z5-footer-links" class="span12">\par
+                        <div id="z5-ftr-col1" class="span12-sm span3 span4-md">\par
+                            <ul class="no-bullet">\par
+                                <li><a href="#"><i class="icon-location-pinpoint" aria-hidden="true"></i>Find a store</a></li>\par
+                                <li><a href="#"><i class="icon-calendar ftr-icon-space" aria-hidden="true"></i>\par
+                                    Make a store appointment</a></li>\par
+                                <li><a href="#"><i class="icon-location-unitedstates" aria-hidden="true"></i>Coverage maps</a></li>\par
+                                <li>\par
+                                    <a href="#"><i class="icon-building-midsizedbuilding" aria-hidden="true"></i>\par
+                                        Business customers\par
+                                        <i class="icon-datanetwork-link" aria-label="Business customers" role="img" aria-hidden="true"></i>\par
+                                    </a>\par
+                                </li>\par
+                            </ul>\par
+                        </div>\par
+                        <div id="z5-ftr-col2" class="span12-sm span6 span4-md">\par
+                            <ul class="no-bullet">\par
+                                <li>\par
+                                    <a href="#">About AT&amp;T\par
+                                        <i class="icon-datanetwork-link" aria-label="About At&T" role="img" aria-hidden="true"></i>\par
+                                    </a>\par
+                                </li>\par
+                                <li><a href="#">Contact us</a></li>\par
+                                <li><a href="#">Site map</a></li>\par
+                                <li><a href="#">Ver en Espa&ntilde;ol</a></li>\par
+                            </ul>\par
+                        </div>\par
+                        <div id="z5-ftr-col3" class="span12-sm span3 span4-md">\par
+                            <h5 id="z5-social-text">Connect with AT&amp;T</h5>\par
+                            <ul class="ftr-social-links">\par
+                                <li><a href="#">\par
+                                    <i class="icon-social-twitterL" aria-label="Twitter" role="image"></i>\par
+                                </a></li>\par
+                                <li><a href="#">\par
+                                    <i class="icon-social-facebook" aria-label="Twitter" role="image"></i>\par
+\par
+                                </a></li>\par
+                                <li class="svg-white"><a href="#">\par
+                                    <i class="icon-social-instagram" aria-label="Twitter" role="image"></i>\par
+                                </a></li>\par
+                                <li><a href="#">\par
+                                    <i class="icon-social-linkedinL" aria-label="Twitter" role="image"></i>\par
+                                </a></li>\par
+                            </ul>\par
+                            <div id="z5-forums-link">\par
+                                <a href="#"><i class="icon-bubble-messaging" aria-hidden="true"></i> Community forums <i class="icon-datanetwork-link" aria-label="Community forums" role="img" aria-hidden="true"></i></a>\par
+                            </div>\par
+                        </div>\par
+                        <div class="clearfix"></div>\par
+                    </div>\par
+                </div>\par
+\par
+                <div id="z5-footer-legal" class="row">\par
+                    <div class="span12">\par
+                        <ul class="ftr-legal-links">\par
+                            <li><a href="#">Legal policy center <i class="icon-datanetwork-link" aria-label="Legal policy center" role="img" aria-hidden="true"></i></a></li>\par
+                            <li><a href="#">Privacy policy <i class="icon-datanetwork-link" aria-label="Privacy policy" role="img" aria-hidden="true"></i></a></li>\par
+                            <li><a href="#">Terms of use <i class="icon-datanetwork-link" aria-label="Terms of use" role="img" aria-hidden="true"></i></a></li>\par
+                            <li><a href="#">Broadband details <i class="icon-datanetwork-link" aria-label="Broadband details" role="img" aria-hidden="true"></i></a></li>\par
+                            <li><a href="#">Your choices <i class="icon-datanetwork-link" aria-label="Your choices" role="img" aria-hidden="true"></i></a></li>\par
+                            <li><a href="#">Advertising choices <i class="icon-datanetwork-link" aria-label="Advertising choices" role="img" aria-hidden="true"></i></a></li>\par
+                            <li><a href="#">Accessibility <i class="icon-datanetwork-link" aria-label="Accessibility" role="img" aria-hidden="true"></i></a></li>\par
+                        </ul>\par
+                    </div>\par
+                </div>\par
+                <div id="z5-footer-copyright" class="row">\par
+                    <div class="span12">\par
+                        <div class="span9 span12-xsm span12-sm span9-md pull-left">\par
+                            <p><a href="#" target="_blank" aria-label="&amp;copy; 2016 AT&amp;amp;T Intellectual Property. (This link will open a new window)"><span class="copyright-year-text">&copy; <span class="copyright-year">2016</span> AT&amp;T Intellectual Property.</span>\par
+                                <!-- <i class="icon-datanetwork-link" aria-label="External Site" role="img" aria-hidden="true"></i></a> -->\par
+                                <span class="ftr-copy-pad12">All</span> rights reserved. AT&amp;T, Globe logo, Mobilizing\par
+                                Your World and DIRECTV are registered trademarks of AT&amp;T Intellectual Property and/or\par
+                                AT&amp;T affiliated companies. All other marks are the property of their respective\par
+                                owners.</p>\par
+                        </div>\par
+                        <div id="z5-trust-logo" class="span3 span12-xsm span12-sm span3-md pull-right">\par
+                            <a href="//privacy.truste.com/privacy-seal/validation?rid=6a62df46-069b-45ec-8768-f516726eb8f6" title="TRUSTe Privacy Certification" target="_blank"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=6a62df46-069b-45ec-8768-f516726eb8f6" width="104" height="33" alt="TRUSTe Privacy Certification"/></a>\par
+                        </div>\par
+                    </div>\par
+                </div>\par
+            </div>\par
+\par
+        </div>\par
+    </footer>\par
+\par
+/apps/att/mktg/components/page/lineofbusiness/body.jsp\par
+<body class="unauthenticated" ng-app="ngAppModule">\par
+}
+ 
