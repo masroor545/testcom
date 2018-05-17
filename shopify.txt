@@ -1,0 +1,35 @@
+https://donnelly-farrell8252.myshopify.com/products/comfort-plus?variant=44581612
+
+
+https://help.shopify.com/themes/customization/products/variants/how-to-add-a-pick-an-option-to-drop-downs#sectioned-themes 
+
+https://vraiandoro.com/products/diamond-dot-cuff-ring-rose-gold?variant=55760582795
+
+
+https://vow-combo.myshopify.com/admin/themes/877821963/editor#/collections/rings/products/skinny-stacking-ring-yellow 
+
+https://vow-combo.myshopify.com/admin/products/478344445963
+
+ <!--Author:@Masroor-Code for default size starts   -->
+  <script>
+    $(document).ready(function() {
+
+        $('#AddToCart').on('click', function() {
+
+            var selVal = $('.single-option-selector option:selected').val();
+
+            if (selVal == '2') {
+
+                $('#AddToCart').addClass('disabled');
+                alert("Please Select Size");
+
+                return false;
+            }
+
+
+        });
+
+    })
+</script>
+<!--Author :@Masroor-Code for default size Ends   -->
+
